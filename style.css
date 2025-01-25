@@ -1,0 +1,13 @@
+body{
+    background: rgb(17, 143, 147);
+}
+body h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    color: azure;
+}
+h3{
+    color: rgb(61, 62, 61);
+    
+}
