@@ -9,10 +9,11 @@ body h1{
 .name{
     font-size: 50px;
     color: azure;
+    text-align: left;
 }
 h3{
     color: rgb(61, 62, 61);
-    
+    text-align: left;
 }
 .ph{
     margin: 100px 100px;
@@ -20,8 +21,10 @@ h3{
     border-radius: 100%;
     border: 5px solid rgb(229, 255, 0) ;
 }
-.profile{
-    padding: 100px 100px;
+.profile{ 
+    /* padding: 5px 100px; */
+    height: 1000px;
+    width: 1200px;
 }
 .logo{
     width: 40px;
@@ -29,6 +32,9 @@ h3{
     border:2px solid yellow ;
 }
 .hdr{
-    display: flex;
+    /* display: flex;
     justify-content:end;
+ */
+    display: flex;
+    justify-content: space-between;
 }

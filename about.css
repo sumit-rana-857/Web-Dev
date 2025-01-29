@@ -1,0 +1,21 @@
+.abt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 33px;
+
+}
+body{
+    background-color: aqua;
+
+}
+.logo{
+    width: 40px;
+    border-radius:50% ;
+    border:2px solid yellow ;
+}
+.hdr{
+    /* display: flex;
+    justify-content:end;
+ */
+    display: flex;
+    justify-content: space-between;
+}

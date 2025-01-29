@@ -1,0 +1,12 @@
+.logo{
+    width: 40px;
+    border-radius:50% ;
+    border:2px solid yellow ;
+}
+.hdr{
+    /* display: flex;
+    justify-content:end;
+ */
+    display: flex;
+    justify-content: space-between;
+}
