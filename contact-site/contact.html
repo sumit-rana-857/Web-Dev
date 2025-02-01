@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
+    
+    <!-- <div class="contact">
+    <div>
+        <h1 class="q">Any problem ?</h1>
+        <h2 class="q1">Then</h2>
+    </div>
+    <div id="ab">
+        <button class="email" href="ranathinkers@outlook.in"> EMAIL US</button>
+        <button class="call" href="6294962675">CALL US</button>
+    </div>
+</div> -->
+<div class="container">
     <div class="hdr">
         <div>
-            <a href="https://sumit-rana-857.github.io/Web-Dev/" >
+            <a href="/index.html" >
                 <img src="/photos/my photo.jpg" class="logo" alt="My photo">
             </a>
             
         </div>
         <div class="menu">
             <span>
-                <a href="https://sumit-rana-857.github.io/Web-Dev/">Home</a>
+                <a href="/index.html">Home</a>
             </span>
             <span>
                 <a href="/about-site/about.html">About</a>
@@ -32,7 +44,26 @@
             </span>
         </div>
     </div>
-    
-    
+    <h2>Complaint Form</h2>
+    <form id="complaintForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Complaint Details:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="statusMessage"></p>
+</div>
+
+<script src="contact.js"></script>
 </body>
 </html>
